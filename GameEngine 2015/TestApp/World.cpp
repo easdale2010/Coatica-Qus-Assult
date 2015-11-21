@@ -15,7 +15,7 @@ void World::Initialise()
 {
 	for (int i = 0; i < 1000; i++)
 	{
-		m_sprite[i].Load("Textures/Stars1.png",
+		m_sprite[i].Load("Textures/stars.png",
 			m_gameContext,
 			glm::vec4(-1280.0f * i, 0.0f, 1280.0f, 720.0f),
 			glm::vec4(0.0f, 0.0f, 1.0f, 1.0f), 0.0f, 0.0f,
@@ -25,14 +25,14 @@ void World::Initialise()
 	
 	int size = -1280.0f;
 		// Initialise our sprite
-		m_sprite1.Load("Textures/Gasblue.png",
+		m_sprite1.Load("Textures/Background1.png",
 			m_gameContext,
 			glm::vec4(size * 2, 0.0f, 1280.0f, 720.0f),
 			glm::vec4(0.0f, 0.0f, 1.0f, 1.0f), 0.0f, 0.0f,
 			ge::Rendering::ColourRGBA8(255, 255, 255, 255),
 			true);
 
-		m_sprite2.Load("Textures/GasOrange.png",
+		m_sprite2.Load("Textures/Background1flare.png",
 			m_gameContext,
 			glm::vec4(size * 6, 0.0f, 1280.0f, 720.0f),
 			glm::vec4(0.0f, 0.0f, 1.0f, 1.0f), 0.0f, 0.0f,
@@ -40,56 +40,56 @@ void World::Initialise()
 			true);
 
 
-		m_sprite3.Load("Textures/GasPurple.png",
+		m_sprite3.Load("Textures/Clouds.png",
 			m_gameContext,
 			glm::vec4(size * 10, 0.0f, 1280.0f, 720.0f),
 			glm::vec4(0.0f, 0.0f, 1.0f, 1.0f), 0.0f, 0.0f,
 			ge::Rendering::ColourRGBA8(255, 255, 255, 255),
 			true);	
 
-		m_sprite4.Load("Textures/MettalicWithPlanet.png",
+		m_sprite4.Load("Textures/Gasblue.png",
 			m_gameContext,
 			glm::vec4(size * 15, 0.0f, 1280.0f, 720.0f),
 			glm::vec4(0.0f, 0.0f, 1.0f, 1.0f), 0.0f, 0.0f,
 			ge::Rendering::ColourRGBA8(255, 255, 255, 255),
 			true);
 
-		m_sprite5.Load("textures/mettalicwithflare2.png",
+		m_sprite5.Load("textures/GasOrange.png",
 			m_gameContext,
 			glm::vec4(size * 16, 0.0f, 1280.0f, 720.0f),
 			glm::vec4(0.0f, 0.0f, 1.0f, 1.0f), 0.0f, 0.0f,
 			ge::Rendering::ColourRGBA8(255, 255, 255, 255),
 			true);
 
-		m_sprite6.Load("Textures/MettalicWithflare-min.png",
+		m_sprite6.Load("Textures/GasPurple.png",
 			m_gameContext,
 			glm::vec4(size * 17, 0.0f, 1280.0f, 720.0f),
 			glm::vec4(0.0f, 0.0f, 1.0f, 1.0f), 0.0f, 0.0f,
 			ge::Rendering::ColourRGBA8(255, 255, 255, 255),
 			true);
 
-		m_sprite7.Load("Textures/MettalicWithoutflare.png",
+		m_sprite7.Load("Textures/MettalicWithflare.png",
 			m_gameContext,
 			glm::vec4(size * 18, 0.0f, 1280.0f, 720.0f),
 			glm::vec4(0.0f, 0.0f, 1.0f, 1.0f), 0.0f, 0.0f,
 			ge::Rendering::ColourRGBA8(255, 255, 255, 255),
 			true);
 
-		m_sprite8.Load("Textures/MettalicWithoutflare2.png",
+		m_sprite8.Load("Textures/MettalicWithflare2.png",
 			m_gameContext,
 			glm::vec4(size * 19, 0.0f, 1280.0f, 720.0f),
 			glm::vec4(0.0f, 0.0f, 1.0f, 1.0f), 0.0f, 0.0f,
 			ge::Rendering::ColourRGBA8(255, 255, 255, 255),
 			true);
 
-		m_sprite9.Load("Textures/MettalicWithflare.png",
+		m_sprite9.Load("Textures/MettalicWithflare21.png",
 			m_gameContext,
 			glm::vec4(size * 20, 0.0f, 1280.0f, 720.0f),
 			glm::vec4(0.0f, 0.0f, 1.0f, 1.0f), 0.0f, 0.0f,
 			ge::Rendering::ColourRGBA8(255, 255, 255, 255),
 			true);	
 
-		m_sprite10.Load("Textures/Rock2Orange.png",
+		m_sprite10.Load("Textures/MettalicWithoutflare.png",
 			m_gameContext,
 			glm::vec4(size * 24, 0.0f, 1280.0f, 720.0f),
 			glm::vec4(0.0f, 0.0f, 1.0f, 1.0f), 0.0f, 0.0f,
@@ -118,7 +118,7 @@ void World::Update(float elapsedTime)
 	// Update the player here
 	m_player.Update(elapsedTime);
 
-	glm::vec2 coOfBackgrounds(1.0f,0);
+	glm::vec2 coOfBackgrounds(10.0f,0);
 	m_sprite1.Move(coOfBackgrounds);
 	m_sprite2.Move(coOfBackgrounds);
 	m_sprite3.Move(coOfBackgrounds);

@@ -1,19 +1,29 @@
-﻿Build started 18/11/2015 13:45:18.
-     1>Project "E:\Univercity\Year 3\Game Project Design and Plan\GameEngine 2015\GameEngine\GameEngine.vcxproj" on node 2 (Build target(s)).
+﻿Build started 19-Nov-15 21:31:10.
+     1>Project "C:\Users\Alan Easdale\Documents\Univercity\Year 3\Game Project Design and Plan\GameEngine 2015\GameEngine\GameEngine.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"E:\Univercity\Year 3\Game Project Design and Plan\GameEngine 2015\\" /I"E:\Univercity\Year 3\Game Project Design and Plan\GameEngine 2015\Dependancies/include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\GameEngine.pdb" /Gd /TP /analyze- /errorReport:prompt GameEngine.cpp ParticleBatch2D.cpp ParticleEngine.cpp Sprite.cpp SpriteBatch.cpp SpriteFont.cpp
-         GameEngine.cpp
-         Generating Code...
-         Compiling...
-         SpriteBatch.cpp
-         Generating Code...
-         Skipping... (no relevant changes detected)
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Alan Easdale\Documents\Univercity\Year 3\Game Project Design and Plan\GameEngine 2015\\" /I"C:\Users\Alan Easdale\Documents\Univercity\Year 3\Game Project Design and Plan\GameEngine 2015\Dependancies/include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\GameEngine.pdb" /Gd /TP /analyze- /errorReport:prompt AudioManager.cpp Camera.cpp Clock.cpp GameContext.cpp GameEngine.cpp GLSLProgram.cpp InputManager.cpp ParticleBatch2D.cpp ParticleEngine.cpp Private\AudioEngineWrapper.cpp Private\Utility.cpp ResourceManager.cpp Sprite.cpp SpriteBatch.cpp SpriteFont.cpp TextureManager.cpp Time.cpp Window.cpp
+         Window.cpp
+         Time.cpp
+         TextureManager.cpp
          SpriteFont.cpp
+         SpriteBatch.cpp
          Sprite.cpp
+         ResourceManager.cpp
+         Utility.cpp
+         AudioEngineWrapper.cpp
          ParticleEngine.cpp
          ParticleBatch2D.cpp
+         InputManager.cpp
+         GLSLProgram.cpp
+         GameEngine.cpp
+         GameContext.cpp
+         Clock.cpp
+         Camera.cpp
+         AudioManager.cpp
+         Generating Code...
+     1>c:\users\alan easdale\documents\univercity\year 3\game project design and plan\gameengine 2015\gameengine\resourcemanager.cpp(9): warning C4172: returning address of local variable or temporary
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"E:\Univercity\Year 3\Game Project Design and Plan\GameEngine 2015\Debug\GameEngine.lib" /NOLOGO Debug\AudioManager.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\Alan Easdale\Documents\Univercity\Year 3\Game Project Design and Plan\GameEngine 2015\Debug\GameEngine.lib" /NOLOGO Debug\AudioManager.obj
          Debug\Camera.obj
          Debug\Clock.obj
          Debug\GameContext.obj
@@ -31,9 +41,9 @@
          Debug\TextureManager.obj
          Debug\Time.obj
          Debug\Window.obj
-         GameEngine.vcxproj -> E:\Univercity\Year 3\Game Project Design and Plan\GameEngine 2015\Debug\GameEngine.lib
-     1>Done Building Project "E:\Univercity\Year 3\Game Project Design and Plan\GameEngine 2015\GameEngine\GameEngine.vcxproj" (Build target(s)).
+         GameEngine.vcxproj -> C:\Users\Alan Easdale\Documents\Univercity\Year 3\Game Project Design and Plan\GameEngine 2015\Debug\GameEngine.lib
+     1>Done Building Project "C:\Users\Alan Easdale\Documents\Univercity\Year 3\Game Project Design and Plan\GameEngine 2015\GameEngine\GameEngine.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:06.15
+Time Elapsed 00:00:17.37
